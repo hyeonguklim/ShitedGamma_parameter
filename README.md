@@ -1,3 +1,6 @@
 ShitedGamma_parameter
+============================
 
-test;more
+## Purpose
+
+To obtain parameters of a shifted gamma distribution using the method of moments
