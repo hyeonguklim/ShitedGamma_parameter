@@ -5,6 +5,6 @@ function [k,v,gamma] = ShiftedGamma_parameter(data)
 %v = sqrt(k)/std(data,0);
 %gamma = mean(data) - k/v;
 
-k = 4/skewness(data)^2;
-v = sqrt(k)/std(data);
+k = 4/skewness(data,0)^2;
+v = sqrt(k)/std(data,0);
 gamma = mean(data) - k/v;
