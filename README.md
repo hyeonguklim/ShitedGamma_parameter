@@ -1,0 +1,1 @@
+ShitedGamma_parameter
